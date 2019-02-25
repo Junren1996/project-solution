@@ -1,7 +1,7 @@
 #+TITLE: CIS 3368 Semester Project
 
-* <ADD YOUR NAME HERE>
-* <ADD YOUR SECTION NUMBER HERE> (NOT YOUR PSID!)
+* Keith Lancaster
+* My Section Number
 
 * Instructions
 - Fill out the placeholders above
