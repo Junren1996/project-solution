@@ -1,12 +1,7 @@
-package edu.uh.tech.cis3368.semesterproject;
-
-import javafx.fxml.Initializable;
+package edu.uh.tech.cis3368.semesterproject.employees;
 
 import javax.persistence.*;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.Objects;
-import java.util.ResourceBundle;
 
 @Entity
 public class Employee {

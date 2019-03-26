@@ -1,4 +1,4 @@
-package edu.uh.tech.cis3368.semesterproject;
+package edu.uh.tech.cis3368.semesterproject.employees;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -8,7 +8,43 @@ public class Job {
     private int id;
     private String name;
     private String description;
-    private Customer customerByCustomerId;
+    private Customer customer;
+    private Product product;
+    private JobStage jobStage;
+
+
+    @ManyToOne
+    @JoinColumn(name = "JOB_STAGE_ID", referencedColumnName = "ID")
+    public JobStage getJobStage() {
+        return jobStage;
+    }
+
+    public void setJobStage(JobStage jobStage) {
+        this.jobStage = jobStage;
+    }
+
+    public Job(){
+
+    }
+
+    public Job(String jobName, String jobDescription, Customer customer, Product product, JobStage jobStage) {
+        name = jobName;
+        description = jobDescription;
+        this.customer = customer;
+        this.product = product;
+        this.jobStage = jobStage;
+    }
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "PRODUCT_ID", referencedColumnName = "ID")
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -58,11 +94,11 @@ public class Job {
 
     @ManyToOne
     @JoinColumn(name = "CUSTOMER_ID", referencedColumnName = "ID")
-    public Customer getCustomerByCustomerId() {
-        return customerByCustomerId;
+    public Customer getCustomer() {
+        return customer;
     }
 
-    public void setCustomerByCustomerId(Customer customerByCustomerId) {
-        this.customerByCustomerId = customerByCustomerId;
+    public void setCustomer(Customer customerByCustomerId) {
+        this.customer = customerByCustomerId;
     }
 }

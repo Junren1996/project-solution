@@ -10,6 +10,15 @@ public class Customer {
     private String address;
     private String phone;
 
+    public Customer(String customerName, String customerAddress, String customerPhone) {
+        name = customerName;
+        phone = customerPhone;
+        address = customerAddress;
+    }
+
+    public Customer() {
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID", nullable = false)

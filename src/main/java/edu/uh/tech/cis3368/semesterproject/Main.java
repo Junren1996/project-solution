@@ -1,5 +1,6 @@
 package edu.uh.tech.cis3368.semesterproject;
 
+import edu.uh.tech.cis3368.semesterproject.employees.EmployeeRepository;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -37,7 +38,7 @@ public class Main extends Application {
      *
      * <p>
      * NOTE: This method is not called on the JavaFX Application Thread. An
-     * application must not construct a Scene or a Stage in this
+     * application must not construct a Scene or a JobStage in this
      * method.
      * An application may construct other JavaFX objects in this method.
      * </p>
@@ -51,13 +52,6 @@ public class Main extends Application {
         fxmlLoader.setControllerFactory(springContext::getBean);
         root = fxmlLoader.load();
         super.init();
-
-        springContext.getAutowireCapableBeanFactory().autowireBean(this);
-
-//        employeeRepository.hashCode();
-//        Employee employee = new Employee();
-//        employee.setLastName("Granger");
-//        employeeRepository.save(employee);
     }
 
 
@@ -81,6 +75,5 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
-
     }
 }

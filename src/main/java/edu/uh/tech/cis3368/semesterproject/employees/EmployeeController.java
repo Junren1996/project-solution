@@ -1,13 +1,14 @@
-package edu.uh.tech.cis3368.semesterproject;
+package edu.uh.tech.cis3368.semesterproject.employees;
 
-import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
@@ -166,5 +167,11 @@ public class EmployeeController implements Initializable {
     public void handleClearSelection(ActionEvent actionEvent) {
         employeeList.getSelectionModel().clearSelection();
         clearFields();
+    }
+
+    public void handleDone(ActionEvent actionEvent) {
+        var stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(returnScene);
+
     }
 }

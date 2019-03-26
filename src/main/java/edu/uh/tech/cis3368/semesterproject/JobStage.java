@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-public class Stage {
+public class JobStage {
     private int id;
     private String name;
     private int ordinal;
@@ -44,10 +44,10 @@ public class Stage {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Stage stage = (Stage) o;
-        return id == stage.id &&
-                ordinal == stage.ordinal &&
-                Objects.equals(name, stage.name);
+        JobStage jobStage = (JobStage) o;
+        return id == jobStage.id &&
+                ordinal == jobStage.ordinal &&
+                Objects.equals(name, jobStage.name);
     }
 
     @Override
