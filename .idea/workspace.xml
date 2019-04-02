@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0d43d7-5d76-4845-a90f-9a6a675c22f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ComponentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProfitReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190401132527__create_components_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20190401135247__create_product_component_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/populate_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uh/tech/cis3368/semesterproject/ProductComponentTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uh/tech/cis3368/semesterproject/ReportServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63e55ecd-7c4e-4c49-ae28-0fd9852c9209.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_5_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-starter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employees/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employees/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employees/employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/employees.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,6 +28,11 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db.h2 driver - project" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.h2 driver - project" type="feb32156:DbDataSourceImpl" />
+        <item name="PROJECT: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
     </expand>
     <select />
   </component>
@@ -71,16 +47,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ReportService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/populate_database.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,11 +146,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1282" />
-    <option name="y" value="23" />
-    <option name="width" value="1278" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,7 +236,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554231034382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554234828986" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -309,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductComponentTests.productsWithOneComponentShouldHaveCostOfComponent">
+  <component name="RunManager" selected="JUnit.ProductComponentTests">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -332,6 +299,21 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductComponentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uh.tech.cis3368.semesterproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uh.tech.cis3368.semesterproject" />
+      <option name="MAIN_CLASS_NAME" value="edu.uh.tech.cis3368.semesterproject.ProductComponentTests" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -370,7 +352,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectStarterApplicationTests.deletingJobDeletesProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectStarterApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-starter" />
       <extension name="coverage">
         <pattern>
@@ -380,23 +362,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.uh.tech.cis3368.semesterproject" />
       <option name="MAIN_CLASS_NAME" value="edu.uh.tech.cis3368.semesterproject.ProjectStarterApplicationTests" />
-      <option name="METHOD_NAME" value="deletingJobDeletesProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.uh.tech.cis3368.semesterproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.uh.tech.cis3368.semesterproject" />
-      <option name="MAIN_CLASS_NAME" value="edu.uh.tech.cis3368.semesterproject.ReportServiceTests" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -436,19 +401,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ProjectStarterApplicationTests.deletingJobDeletesProduct" />
-      <item itemvalue="JUnit.ReportServiceTests" />
       <item itemvalue="JUnit.ProductComponentTests.productsWithNoComponentsShouldHave0Cost" />
       <item itemvalue="Spring Boot.Main" />
       <item itemvalue="JUnit.ProductComponentTests.productsWithOneComponentShouldHaveCostOfComponent" />
+      <item itemvalue="JUnit.ProjectStarterApplicationTests" />
+      <item itemvalue="JUnit.ProductComponentTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductComponentTests" />
+        <item itemvalue="JUnit.ProjectStarterApplicationTests" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProductComponentTests.productsWithOneComponentShouldHaveCostOfComponent" />
         <item itemvalue="JUnit.ProductComponentTests.productsWithNoComponentsShouldHave0Cost" />
-        <item itemvalue="JUnit.ReportServiceTests" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ProjectStarterApplicationTests.deletingJobDeletesProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +437,7 @@
       <workItem from="1553811335099" duration="5075000" />
       <workItem from="1554139068714" duration="10698000" />
       <workItem from="1554222327316" duration="24000" />
-      <workItem from="1554227784936" duration="3151000" />
+      <workItem from="1554227784936" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="added updated project code">
       <created>1551105447327</created>
@@ -524,13 +489,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88811000" />
+    <option name="totallyTimeSpent" value="90732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1282" y="23" width="1278" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6784566" visible="true" weight="0.19498383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6784566" visible="true" weight="0.20766774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,7 +502,7 @@
       <window_info id="DB Browser" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Persistence" order="8" sideWeight="0.3215434" side_tool="true" visible="true" weight="0.19498383" />
+      <window_info id="Persistence" order="8" sideWeight="0.3215434" side_tool="true" visible="true" weight="0.20766774" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963786" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978425" visible="true" weight="0.3736153" />
@@ -550,7 +514,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021575" side_tool="true" weight="0.28872496" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32729104" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32889876" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3488544" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34843907" />
       <window_info anchor="bottom" id="Reviews" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32963786" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.32963786" />
@@ -562,7 +526,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49002218" weight="0.17077045" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49002218" visible="true" weight="0.17039403" />
       <window_info anchor="right" id="News Feed" order="5" />
       <window_info anchor="right" id="Data View" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -707,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Job.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/JobService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/MainController.java">
@@ -763,11 +717,6 @@
     <entry file="das://07d31d43-6ac8-40d0-a791-0dcd7d2d2c05/database/PROJECT/schema/PUBLIC/table/COMPONENT" />
     <entry file="file://$PROJECT_DIR$/../spring-many2many-example/springm2m.mv.db">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/populate_database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ProductComponent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -816,14 +765,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/ReportService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="660">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#666#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/semesterproject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/populate_database.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
