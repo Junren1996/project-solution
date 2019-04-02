@@ -1,6 +1,5 @@
 package edu.uh.tech.cis3368.semesterproject;
 
-import edu.uh.tech.cis3368.semesterproject.employees.EmployeeRepository;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

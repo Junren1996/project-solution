@@ -1,4 +1,4 @@
-package edu.uh.tech.cis3368.semesterproject.employees;
+package edu.uh.tech.cis3368.semesterproject;
 
 import javax.persistence.*;
 import java.util.Objects;

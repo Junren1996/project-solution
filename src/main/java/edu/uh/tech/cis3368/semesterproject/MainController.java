@@ -1,6 +1,5 @@
 package edu.uh.tech.cis3368.semesterproject;
 
-import edu.uh.tech.cis3368.semesterproject.employees.EmployeeController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -26,7 +25,7 @@ public class MainController {
 
     public void doManageEmployees(ActionEvent actionEvent) throws IOException {
         Stage parent  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("employees/employees.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("employees.fxml"));
         fxmlLoader.setControllerFactory(applicationContext::getBean);
         Scene scene = new Scene(fxmlLoader.load());
         EmployeeController employeeController = fxmlLoader.getController();

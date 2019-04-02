@@ -1,4 +1,4 @@
-package edu.uh.tech.cis3368.semesterproject.employees;
+package edu.uh.tech.cis3368.semesterproject;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -166,6 +166,7 @@ public class EmployeeController implements Initializable {
 
     public void handleClearSelection(ActionEvent actionEvent) {
         employeeList.getSelectionModel().clearSelection();
+        btnAddEmployee.setText(NEW_EMPLOYEE);
         clearFields();
     }
 

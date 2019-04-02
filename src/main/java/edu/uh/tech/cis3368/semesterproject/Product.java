@@ -1,6 +1,10 @@
 package edu.uh.tech.cis3368.semesterproject;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -9,6 +13,7 @@ public class Product {
     private int id;
     private String name;
     private String description;
+    private List<ProductComponent> productComponents = new ArrayList<>();
 
 
     public Product(String name, String description) {
@@ -63,5 +68,33 @@ public class Product {
     @Override
     public int hashCode() {
         return Objects.hash(id, name);
+    }
+
+    public BigDecimal wholesaleCost() {
+        return BigDecimal.ZERO;
+    }
+
+    private Collection<ProductComponent> productComponent;
+
+    @OneToMany(mappedBy = "product")
+    public Collection<ProductComponent> getProductComponent() {
+        return productComponent;
+    }
+
+    public void setProductComponent(Collection<ProductComponent> productComponent) {
+        this.productComponent = productComponent;
+    }
+
+
+    public void setProductComponents(List<ProductComponent> productComponents) {
+        this.productComponents = productComponents;
+    }
+
+    public void addComponent(Component component, int quantity) {
+        ProductComponent productComponent =
+                new ProductComponent(quantity, component, this);
+        productComponents.add(productComponent);
+        component.getProductComponents().add(productComponent);
+
     }
 }
